@@ -17,4 +17,4 @@ docker run --rm -e DISPLAY --privileged \
     -v "${NX_SETTINGS_PATH}:/root/.local/share/Network Optix" \
     -v "${NX_CONFIG_PATH}:/root/.config/Network Optix" \
     -v "${NX_CACHE_PATH}:/root/.cache/Network Optix" \
-    ghcr.io/krysma/nxwitness-client:5.5.0
+    nxwitness/cient:5.0.0
