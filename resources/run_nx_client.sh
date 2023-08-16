@@ -14,4 +14,4 @@ touch /root/.config/nx_ini/resource_management.ini
 touch /root/.config/nx_ini/analytics_logging.ini
 touch /root/.config/nx_ini/nx_streaming.ini
 
-nxwitness_client --no-sandbox
+QT_DEBUG_PLUGINS=1 nxwitness_client --no-sandbox

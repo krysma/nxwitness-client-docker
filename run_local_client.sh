@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+NX_IMAGE="nxwitness/client:5.1.0.37133"
+
 NX_INI_PATH="${HOME}/.config/nx_ini"
 NX_SETTINGS_PATH="${HOME}/.local/share/Network Optix"
 NX_CONFIG_PATH="${HOME}/.config/Network Optix"
@@ -17,4 +19,4 @@ docker run --rm -e DISPLAY --privileged \
     -v "${NX_SETTINGS_PATH}:/root/.local/share/Network Optix" \
     -v "${NX_CONFIG_PATH}:/root/.config/Network Optix" \
     -v "${NX_CACHE_PATH}:/root/.cache/Network Optix" \
-    nxwitness/cient:5.0.0
+    ${NX_IMAGE}

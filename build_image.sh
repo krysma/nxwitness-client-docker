@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-docker build -t nxwitness/cient:5.0.0 .
+docker build -t nxwitness/cient:5.1.0.37133 .
