@@ -10,6 +10,7 @@ than Ubuntu or Windows.
 ```
 
 # To Run the client in docker:
+- Image will be automatically pulled
 ```bash
 ./run_client.sh
 ```
