@@ -3,7 +3,7 @@ set -e
 
 source ./version.sh
 
-NX_IMAGE="nxwitness/cient:${VERSION}.${BUILD_NO}"
+NX_IMAGE="nxwitness/client:${VERSION}.${BUILD_NO}"
 
 NX_INI_PATH="${HOME}/.config/nx_ini"
 NX_SETTINGS_PATH="${HOME}/.local/share/Network Optix"
